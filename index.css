@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#text{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    height: 200px;
+    width: 700px;
+}
+h1, h2, h3{
+    height: 50%;
+    margin: 0;    
+}
