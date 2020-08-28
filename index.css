@@ -1,13 +1,23 @@
 *{
-    box-sizing: border-box;
+    
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+body{
+    justify-items: center;
+    align-items: center;
+    background-color: blueviolet;
+    
+}
+
 main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     margin: auto;
+    justify-items: center;
+    background-color: aqua;
 }
 
 #pics{
@@ -46,8 +56,10 @@ h1, h2, h3{
 h2{
     padding-bottom: 20px;
     color: #797a7c;
+    font-weight: 500;
 }
 
 h3{
     color: #a5a7ab;
+    font-weight: 300;
 }
